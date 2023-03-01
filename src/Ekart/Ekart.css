@@ -32,9 +32,8 @@
     max-width: 100px;
     width: auto;
     position: absolute;
-  left: 340px;
+    left: 340px;
   top: 5px;
-  z-index: 1;
   }
   .card-color{
     background: rgb(41,116,241);
@@ -106,11 +105,24 @@ div.content {
   width: 100%;
 }
 
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
+.tf{
+  text-align: left;
 }
-.sticky + .content {
-  padding-top: 60px;
+.tr{
+  text-align: right;
+}
+.logo{
+  color: #f4f4f4;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.sticky {
+  position:sticky;
+  top: 0;
+  
+  z-index: 1;
+  
+}
+.gt{
+  overflow:auto;
 }
