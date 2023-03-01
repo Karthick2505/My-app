@@ -1,0 +1,116 @@
+.col-sm .pic-1{  opacity:1;transition:all .5s ease-out 0s}   
+.col-sm:hover .pic-1{opacity:0.5}
+  .col-sm .product-content{padding:25px}
+  .col-sm .title{font-size:15px;font-weight:400;text-transform:capitalize;margin:0 0 7px;transition:all .3s ease 0s}
+  .col-sm .title a{color:#222}
+  .col-sm .title a:hover{color:#16a085}
+  .col-sm .price{color:#16a085;font-size:17px;font-weight:700;margin:0 2px 15px 0;display:block}
+  .col-sm .price span{color:#141212;font-size:13px;font-weight:400;letter-spacing:0;text-align:left;vertical-align:middle;display:inline-block}
+  @media only screen and (max-width:990px){  .col-sm{margin-bottom:30px}
+}
+
+.row{
+  width: 100%;
+}
+  .height{
+    height: 200px;
+  }
+  .color{
+    color: rgb(255, 255, 255);
+  }
+  .cart{
+    width: 50px;
+    height: 50px;
+  }
+  .discount{
+    text-align: center;
+    font-size: 80%;
+    padding: 10px;
+    color: aliceblue;
+    background-color: red;
+    border-radius: 50%;
+    max-width: 100px;
+    width: auto;
+    position: absolute;
+  left: 340px;
+  top: 5px;
+  z-index: 1;
+  }
+  .card-color{
+    background: rgb(41,116,241);
+    background: linear-gradient(0deg, rgba(41,116,241,1) 0%, rgba(41,116,241,1) 85%, rgba(255,255,255,1) 100%);
+  }
+  .bg1{
+    background: #2974f1;
+  }
+  .title{
+    color: white;
+  }
+  .text-price{
+    color: white;
+    font-size: large;
+  }
+  .text-stocks{
+    color: rgb(0, 0, 0);
+  }
+  .stock-count{
+    color:rgb(117, 253, 96); ;
+  }
+
+  
+.form-input{
+ padding-top: 2px;
+padding-bottom: 2px;
+width: 70%;
+}
+.form{
+  display: flex;
+}
+.ntg{
+  height: 100px;
+  margin-top :200px;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow:hidden;
+}
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+ 
+.sidebar a:hover {
+  background-color: #2974f1;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+
+}
+.cartimg{
+  width: 100%;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky + .content {
+  padding-top: 60px;
+}
