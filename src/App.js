@@ -1,13 +1,13 @@
 import './App.css';
 import React, { Component } from 'react';
-import Ekart from './Ekart/Ekart';
+import Ekartmain from './Ekart/Ekartmain';
 
 
 class App extends Component {  
   render(){
     return(
       <div > 
-          <Ekart />
+          <Ekartmain />
       </div>    
     );
   }

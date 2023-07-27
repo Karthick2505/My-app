@@ -3,12 +3,22 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@auth0/auth0-react": "^2.0.1",
+    "@coreui/react-pro": "^4.8.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.3.2",
+    "bootstrap": "^5.2.3",
+    "font-awesome": "^4.7.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.7.1",
+    "react-paginate": "^8.1.4",
+    "react-router-dom": "^6.8.1",
     "react-scripts": "5.0.1",
+    "state-pool": "^0.6.0-alpha.6",
+    "sweetpagination": "^1.0.15",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -34,5 +44,19 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Karthick2505/my-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Karthick2505/my-app/issues"
+  },
+  "homepage": "https://github.com/Karthick2505/my-app#readme"
 }
